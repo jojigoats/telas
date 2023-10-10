@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="" content="width=device-width, initial-scale=1.0">
+    <style>
+     
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Barlow', sans-serif;
+        }
+
+        .container {
+            width: 360px;
+            height: 250px;
+            position: relative;
+            background-color: white;
+        }
+
+        
+        .barra-azul {
+            width: 400px;
+            height: 231px;
+            background-color: #30A5EA;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .triangulo {
+            width: 27.89px;
+            height: 22.98px;
+            left: 37.89px;
+            top: 11px;
+            position: absolute;
+            transform: rotate(179.74deg);
+            transform-origin: 0 0;
+            background-color: #056BB3;
+        }
+
+        
+
+        .imagem-perfil {
+            width: 185px;
+            height: 173px;
+            left: 89px;
+            top: 23px;
+            position: absolute;
+            background-color: rgba(238, 239, 233, 0.90);
+            border-radius: 9999px;
+        }
+
+        .texto-foto {
+            left: 157px;
+            top: 94px;
+            position: absolute;
+            color: rgba(0, 0, 0, 0.50);
+            font-size: 25px;
+            font-family: 'Barlow';
+            font-weight: 600;
+            word-wrap: break-word;
+        }
+
+        .botao-editar {
+            width: 44px;
+            height: 40px;
+            left: 207px;
+            top: 162px;
+            position: absolute;
+            background-color: #EEEFE9;
+            border-radius: 9999px;
+        }
+        
+        .texto-editar-perfil {
+            width: 104px;
+            height: 15px; 
+            left: 135px;
+            top: 219px;
+            position: absolute;
+            color: white;
+            font-size: 18px;
+            font-family: 'Barlow';
+            font-weight: 600;
+            word-wrap: break-word;
+
+        }
+        
+        .container-box {
+            width: 308px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .form-field {
+            width: 100%;
+            height: 40px;
+            margin-bottom: 20px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .label {
+            font-size: 15px;
+            font-weight: 600;
+            color: #777;
+        }
+
+        .submit-button {
+            width: 100%;
+            height: 40px;
+            background-color: #0681D1;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="barra-azul"></div>
+        <div class="triangulo"></div>
+        <div class="botao-perfil"></div>
+        <div class="imagem-perfil"></div>
+        <div class="texto-foto">Foto</div>
+        
+    
+    </div>
+    
+    <div class="container-box">
+       <h2>Dados pessoais</h2>
+        <label for="nome" class="label">Nome</label>
+        <input type="text" id="nome" name="nome" class="form-field" placeholder="Fernanda Nicole Louise Aparício">
+
+        <label for="cpf" class="label">CPF</label>
+        <input type="text" id="cpf" name="cpf" class="form-field" placeholder="312.949.038-88">
+
+        <label for="dataNascimento" class="label">Data de nascimento</label>
+        <input type="text" id="dataNascimento" name="dataNascimento" class="form-field" placeholder="20/06/2004">
+
+        <label for="sexo" class="label">Sexo</label>
+        <input type="text" id="sexo" name="sexo" class="form-field" placeholder="Feminino">
+
+        <label for="email" class="label">E-mail</label>
+        <input type="email" id="email" name="email" class="form-field" placeholder="fernanda_nic@gmail.com">
+
+        <label for="senha" class="label">Senha</label>
+        <input type="password" id="senha" name="senha" class="form-field" placeholder="********">
+
+        <h2>Endereço</h2>
+        <label for="cep" class="label">CEP</label>
+        <input type="text" id="cep" name="cep" class="form-field" placeholder="11740-973">
+
+        <label for="endereco" class="label">Endereço</label>
+        <input type="text" id="endereco" name="endereco" class="form-field" placeholder="Avenida Flacides Ferreira">
+
+        <label for="numero" class="label">Número</label>
+        <input type="text" id="numero" name="numero" class="form-field" placeholder="956">
+
+        <label for="bairro" class="label">Bairro</label>
+        <input type="text" id="bairro" name="bairro" class="form-field" placeholder="Balneário São Jorge">
+
+        <label for="cidade" class="label">Cidade</label>
+        <input type="text" id="cidade" name="cidade" class="form-field" placeholder="Itanhaém">
+
+        <label for="estado" class="label">Estado</label>
+        <input type="text" id="estado" name="estado" class="form-field" placeholder="SP">
+
+        <h2>Telefones</h2>
+        <label for="telefone" class="label">Telefone</label>
+        <input type="text" id="telefone" name="telefone" class="form-field" placeholder="(13) 2804-9667">
+
+        <label for="celular" class="label">Celular</label>
+        <input type="text" id="celular" name="celular" class="form-field" placeholder="(13) 98673-5094">
+
+        
+        <button type="submit" class="submit-button">Atualize aqui</button>
+    </div>
+</body>
+</html>

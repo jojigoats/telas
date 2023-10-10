@@ -1,0 +1,64 @@
+/* Estilos globais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Estilos do container principal */
+.container {
+    width: 360px;
+    height: 1648px;
+    position: relative;
+    background: white;
+}
+
+/* Estilos do cabeçalho */
+.header {
+    width: 360px;
+    height: 231px;
+    background: #30A5EA;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Estilos do ícone de foto */
+.profile img {
+    width: 34px;
+    height: 24px;
+    position: absolute;
+    top: 170px;
+    left: 212px;
+}
+
+/* Estilos para outros elementos, como os dados pessoais, login, endereço e telefones */
+.personal-data, .login, .address, .phones {
+    width: 308px;
+    height: 49px;
+    position: absolute;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+/* Estilos para os rótulos (por exemplo, "Nome", "CPF", etc.) */
+.personal-data label, .login label, .address label, .phones label {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    word-wrap: break-word;
+}
+
+/* Estilos para os campos de entrada de texto */
+.personal-data input, .login input, .address input, .phones input {
+    width: 155px;
+    height: 26px;
+    position: absolute;
+    background: white;
+}
+
+/* Estilos para os campos específicos, como "Nome", "CPF", etc. */
+/* Substitua .personal-data, .login, .address, .phones pelos seletores adequados */
